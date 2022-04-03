@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Reviews = () => {
+    const [reviews, setReviews] = useState([]);
+
+    useEffect(() => {},[]);
     return (
         <div>
-            Review part
+            
         </div>
     );
 };
