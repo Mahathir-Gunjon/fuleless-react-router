@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useReviews from '../../Hooks/useReviews';
-import Reviews from '../Reviews/Reviews';
+import ReviewCard from '../Reviews/ReviewCard';
 
 const Home = () => {
     const [reviews] = useReviews();
+    const reviewLimit = reviews.slice(0, 3)
     return (
         <section>
             <div className='bg-gradient-to-r from-gray-900 to-red-50 md:py-40 py-5'>
@@ -12,7 +13,7 @@ const Home = () => {
                     <div className='text-gray-50 w-full order-2'>
                         <h1 className="md:text-6xl text-4xl md:my-7 my-3">Tesla Model <span className='text-gray-900 font-bold'>3</span></h1>
                         <p className='md:text-xl to-slate-300'>Model 3 comes with the option of dual motor all-wheel drive, 20” Uberturbine Wheels and Performance Brakes for total control in all weather conditions. A carbon fiber spoiler improves stability at high speeds, all allowing Model 3 to accelerate from 0-60 mph* in as little as 3.1 seconds.</p>
-                        <button type="button" className="py-3 px-4  my-10 text-white font-semibold rounded bg-gradient-to-r from-red-400 to-red-900 hover:from-red-600 hover:to-red-800 ...">
+                        <button type="button" className="py-3 px-4  my-10 text-white shadow-xl font-semibold rounded bg-gradient-to-r from-red-400 to-red-900 hover:from-red-600 hover:to-red-800 ...">
                             <Link to='/reviews'>Check Reviews</Link>
                         </button>
                     </div>
@@ -21,10 +22,23 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-5">
-                <h1>{reviews.length}</h1>
+            <div className="py-5 md:w-6/12 w-11/12 mx-auto">
+
+                <div className="" >
+                    {
+                        reviewLimit.map(review =>
+                            <ReviewCard review={review} />
+                        )
+                    }
+                </div>
+
+                <div className="w-full flex justify-end">
+                    <button type="button" className="py-3 px-4 shadow-xl my-10 text-white font-semibold rounded bg-gradient-to-r from-red-400 to-red-900 hover:from-red-600 hover:to-red-800 ...">
+                        <Link to='/reviews'>Check Reviews</Link>
+                    </button>
+                </div>
             </div>
-        </section>
+        </section >
     );
 };
 

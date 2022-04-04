@@ -1,11 +1,10 @@
 import useReviews from "../../Hooks/useReviews";
 import ReviewCard from "./ReviewCard";
-import './Reviews.css'
 
 const Reviews = () => {
     const [reviews] = useReviews();
     return (
-        <div className="background-img">
+        <div className="bg-gradient-to-r from-gray-900 to-red-50 md:py-40 py-5">
             <div className="w-10/12 mx-auto">
                 <h2 className="md:text-6xl text-4xl text-gray-200 py-10 text-center">Few words our customers said <small>({reviews.length})</small></h2>
             </div>
