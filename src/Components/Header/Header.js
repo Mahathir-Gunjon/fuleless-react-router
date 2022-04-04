@@ -19,6 +19,7 @@ const Header = () => {
                         <CustomLink to="/reviews">Reviews</CustomLink>
                         <CustomLink to="/dashboard">Dashboard</CustomLink>
                         <CustomLink to="/blogs">Blogs</CustomLink>
+                        <CustomLink to="/about">About</CustomLink>
                     </div>
                     <div onClick={() => setMenu(!menu)} className="w-6 h-6 md:hidden text-red-600">
                         {menu ? <XIcon /> : <MenuAlt2Icon></MenuAlt2Icon>}

@@ -41,7 +41,7 @@ const pdata = [
 
 function Dashboard() {
     return (
-        <>
+        <div className='bg-gradient-to-r from-gray-100 to-red-50'>
             <div className="md:flex w-11/12 mx-auto py-10">
                 <div className='w-full'>
                     <h1 className="text-3xl font-semibold text-center my-4">Line Chart</h1>
@@ -108,7 +108,7 @@ function Dashboard() {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
-        </>
+        </div>
     );
 }
 
