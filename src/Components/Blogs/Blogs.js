@@ -1,9 +1,12 @@
 import React from 'react';
+import BlogCard from './BlogCard';
 
 const Blogs = () => {
+
+
     return (
         <div>
-            Blog part
+            <BlogCard></BlogCard>
         </div>
     );
 };
