@@ -5,9 +5,9 @@ import './ReviewCard.css'
 const ReviewCard = ({ review }) => {
     return (
         <div>
-            <div className="flex justify-between my-2 md:my-10 card-info shadow-inner">
-                <div className="w-20 h-20 mr-3 md:mr-10">
-                    <img className='object-cover w-full rounded-full' src={review.picture} alt="" />
+            <div className="md:flex justify-between my-2 md:my-10 card-info shadow-xl">
+                <div className="mr-3 md:mr-10">
+                    <img className='img-sizing' src={review.picture} alt="" />
                 </div>
                 <div className="flex flex-col justify-between">
                     <h3 className='text-2xl font-semibold text-gray-900 mb-2'>{review.name}</h3>

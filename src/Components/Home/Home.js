@@ -8,7 +8,7 @@ const Home = () => {
     const reviewLimit = reviews.slice(0, 3)
     return (
         <section>
-            <div className='bg-gradient-to-r from-gray-900 to-red-50 md:py-40 py-5'>
+            <div className='bg-gradient-to-r from-gray-900 to-red-900 md:py-40 py-5'>
                 <div className="w-10/12 md:7/12 py-20 grid grid-cols-1 md:grid-cols-2 mx-auto">
                     <div className='text-gray-50 w-full order-2'>
                         <h1 className="md:text-6xl text-4xl md:my-7 my-3">Tesla Model <span className='text-gray-900 font-bold'>3</span></h1>
