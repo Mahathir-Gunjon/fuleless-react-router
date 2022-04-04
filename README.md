@@ -1,6 +1,6 @@
 # Fuelless the electric Car Site
 
-[Create React App](https://fuelless.netlify.app/).
+Live Site: [fuelless.netlify.app](https://fuelless.netlify.app/).
 
 ## Features
 
