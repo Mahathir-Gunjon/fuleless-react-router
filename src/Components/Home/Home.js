@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useReviews from '../../Hooks/useReviews';
-import ReviewCard from '../Reviews/ReviewCard';
 import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
@@ -23,11 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="py-5">
-                <div className="w-10/12 md:7/12 mx-auto">
-                    <div className="grid grid-cols-1 gap-4">
-                        <Reviews></Reviews>
-                    </div>
-                </div>
+                <h1>{reviews.length}</h1>
             </div>
         </section>
     );

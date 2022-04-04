@@ -3,6 +3,7 @@ import './App.css';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
 import Reviews from './Components/Reviews/Reviews';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/reviews" element={<Reviews/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </section>
   );
