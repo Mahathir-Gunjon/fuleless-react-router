@@ -5,6 +5,9 @@ const About = () => {
         <div className="bg-gray-900">
             <div className='md:flex md:w-10/12 w-11/12 mx-auto py-10 text-white'>
                 <div className='px-6'>
+                    <div className="md:w-full mx-auto" >
+                        <img className='w-full' src="https://6ztkp25f.tinifycdn.com/wp-content/uploads/2019/05/Tesla-Updates-Musks-Path-to-a-500-Billion-Company-Finance-Brokerage.png" alt="" />
+                    </div>
                     <h1 className='md:text-4xl text-2xl md:my-7 my-3'>Tesla’s mission is to accelerate the world’s transition to sustainable energy.</h1>
                     <p className='text-xl text-gray-200'>
 
