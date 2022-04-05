@@ -4,41 +4,41 @@
         "picture": "https://i.pinimg.com/originals/f3/f4/e6/f3f4e6a44d29a02bc17f3bf3899cff40.jpg",
         "rating": 5,
         "name": "Sekh hasina",
-        "review": "Smooth and quiet. No engined car can match it.Quick. Few cars can match it. You have to go to a Dodge Challenger Hellcat to beat 4.2 0-60. Love to wow new passengers with that thrust.\r\n"
+        "reviewText": "Smooth and quiet. No engined car can match it.Quick. Few cars can match it. You have to go to a Dodge Challenger Hellcat to beat 4.2 0-60. Love to wow new passengers with that thrust.\r\n"
     },
     {
         "id": "6249f7ac539621a40eff7aaa",
         "picture": "https://img.etimg.com/thumb/msid-81326543,width-1200,height-900/news/international/world-news/bangladesh-government-to-decide-on-waiving-khaleda-zias-sentences-relaxing-bail-conditions.jpg",
         "rating": 5,
         "name": "Khaleda Zia",
-        "review": "This car is very impressive and easy to maintain, but tesla Should update its shield of this for VIP persons like us.\r\n"
+        "reviewText": "This car is very impressive and easy to maintain, but tesla Should update its shield of this for VIP persons like us.\r\n"
     },
     {
         "id": "6249f7ace8f2f0d81e53b485",
         "picture": "https://image.shutterstock.com/image-photo/ukrainian-president-volodymyr-zelensky-kyiv-260nw-1489752857.jpg",
         "rating": 5,
         "name": "Volodymyr Zelenskyy",
-        "review": "The Model 3 Performance is everything in one. It is fast (very fast), it is quiet and comfortable; very comfortable seats actually. The White interior looks amazing, and it actually makes you want to keep the interior clean for once. .\r\n"
+        "reviewText": "The Model 3 Performance is everything in one. It is fast (very fast), it is quiet and comfortable; very comfortable seats actually. The White interior looks amazing, and it actually makes you want to keep the interior clean for once. .\r\n"
     },
     {
         "id": "6249f7acfdf3906ee4b7a267",
         "picture": "https://static.toiimg.com/thumb.cms?msid=82828367&width=750&resizemode=4",
         "rating": 4.7,
         "name": "Putin Vai",
-        "review": "This car never fails to surprise me, it's out of this world. I highly recommend taking one of these for a test drive, you will not be disappointed.\r\n"
+        "reviewText": "This car never fails to surprise me, it's out of this world. I highly recommend taking one of these for a test drive, you will not be disappointed.\r\n"
     },
     {
         "id": "6249f7aceb97f2d477096448",
         "picture": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/d8/images/canvas/2021/12/12/3248100a-2414-42a2-bac2-ba928ac9d0a5_c3fcc20b.jpg?itok=V0koccMV&v=1639275234",
         "rating": 4.5,
         "name": "Modi Sarkar",
-        "review": "Awesome.    Love it.   Purchased for a 100 mile a day commute    Could not have made a better choice especially with gas on the rise!.\r\n"
+        "reviewText": "Awesome.    Love it.   Purchased for a 100 mile a day commute    Could not have made a better choice especially with gas on the rise!.\r\n"
     },
     {
         "id": "6249f7ac4c5145628a77c8b0",
         "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kim_Jong_Un_with_Honor_Guard_portrait.jpg/383px-Kim_Jong_Un_with_Honor_Guard_portrait.jpg",
         "rating": 4.2,
         "name": "Kim Jong Un",
-        "review": "Tesla voided my warranty due to dust AC repair. How do you avoid dust living in Nevada? How does dust get into AC anyways they couldn't answer implied I put it there worst company I have ever dealt with..\r\n"
+        "reviewText": "Tesla voided my warranty due to dust AC repair. How do you avoid dust living in Nevada? How does dust get into AC anyways they couldn't answer implied I put it there worst company I have ever dealt with..\r\n"
     }
 ]
